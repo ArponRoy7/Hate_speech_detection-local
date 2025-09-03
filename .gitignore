@@ -1,0 +1,59 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE/Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debug
+*.log
+*.out
+*.err
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Data files (optional – if large or temporary)
+*.csv
+*.tsv
+*.json
+*.pickle
+*.pkl
+
+# Streamlit
+.streamlit/
+
+# Coverage / testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
