@@ -17,21 +17,47 @@ This project implements a **hybrid deep learning model** for detecting hate spee
 
 ## 🗂️ Project Structure
 ```
-├── streamlit_app.py       # Streamlit frontend
-├── hsd_model.py           # Model loading & inference
-├── bert_lstm_cnn.ipynb    # Training notebook
-├── bert_lstm_cnn_test.ipynb
-├── cnn_lstm_hate_speech_bert/   # [Not in repo, model too large]
-│   ├── saved_model.pb
-│   └── variables/
-├── hate_speech_report_final_2023.pdf   # Project Report
-├── final_ppt_hate_speech.pptx          # Presentation
-├── Deep Learning for Hate Speech Detection in Tweets Using LSTM and Bi-LSTM.pdf
+HATE_SPEECH_DETECTION-LOCAL/
+├── app/
+│ ├── pycache/
+│ ├── .env
+│ ├── .venv/
+│ ├── cnn_lstm_hate_speech_bert/
+│ ├── hsd_model.py
+│ ├── labeled_data.csv
+│ ├── requirements.txt
+│ └── streamlit_app.py
+│
+├── assets/
+│ ├── hate_speech.png
+│ ├── neutral.png
+│ └── offensive.png
+│
+├── docs/
+│ ├── certificate.jpeg
+│ ├── Code run.mkv
+│ ├── Deep Learning for Hate Speech Detection in Tweets Using LSTM ...
+│ ├── final_ppt_hate_speech.pptx
+│ ├── hate_speech_report_final_2023.pdf
+│ └── hate_speech_report_final_2323.docx
+│
+├── Notebook/
+│ ├── bert_lstm_cnn_test.ipynb
+│ └── bert_lstm_cnn.ipynb
 └── README.md
 ```
 
 ⚠️ **Note**: The trained model (`cnn_lstm_hate_speech_bert/`) is too large for GitHub (>100MB). It is excluded via `.gitignore`. You must download or export your own SavedModel.
+## 📸 Screenshots  
 
+### Hate  
+![Hate](./assets/Hate.png)  
+
+### Neutral  
+![Neural](./assets/Neutral.png)  
+
+### Offensive
+![Offensive](./assets/Offesive.png)  
 ## 🚀 Installation
 
 1. Clone the repo:
